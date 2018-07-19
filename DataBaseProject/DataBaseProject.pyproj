@@ -41,6 +41,9 @@
     <Compile Include="apps\adopcion\__init__.py" />
     <Compile Include="apps\mascota\admin.py" />
     <Compile Include="apps\mascota\apps.py" />
+    <Compile Include="apps\mascota\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="apps\mascota\migrations\__init__.py" />
     <Compile Include="apps\mascota\models.py" />
     <Compile Include="apps\mascota\tests.py" />
@@ -64,6 +67,7 @@
     <Content Include="templates\base\base.html" />
     <Content Include="templates\base\header.html" />
     <Content Include="templates\mascota\index.html" />
+    <Content Include="templates\mascota\mascota_form.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="apps\" />
