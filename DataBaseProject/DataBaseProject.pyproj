@@ -52,6 +52,9 @@
     </Compile>
     <Compile Include="apps\mascota\views.py" />
     <Compile Include="apps\mascota\__init__.py" />
+    <Compile Include="apps\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="manage.py" />
     <Compile Include="DataBaseProject\__init__.py" />
     <Compile Include="DataBaseProject\settings.py" />
@@ -68,6 +71,7 @@
     <Content Include="templates\base\header.html" />
     <Content Include="templates\mascota\index.html" />
     <Content Include="templates\mascota\mascota_form.html" />
+    <Content Include="templates\mascota\mascota_list.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="apps\" />
