@@ -70,6 +70,7 @@
     <Content Include="templates\base\base.html" />
     <Content Include="templates\base\header.html" />
     <Content Include="templates\mascota\index.html" />
+    <Content Include="templates\mascota\mascota_delete.html" />
     <Content Include="templates\mascota\mascota_form.html" />
     <Content Include="templates\mascota\mascota_list.html" />
   </ItemGroup>

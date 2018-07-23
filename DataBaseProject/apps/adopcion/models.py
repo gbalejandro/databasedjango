@@ -10,4 +10,4 @@ class Persona(models.Model):
     domicilio = models.TextField()
 
     def __str__(self):
-        return '{} {}'.format(self.nombre, self.nombre)
+        return '{} {}'.format(self.nombre, self.apellidos)
